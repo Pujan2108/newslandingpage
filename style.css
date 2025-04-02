@@ -1,0 +1,46 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.hero {
+    background: linear-gradient(135deg, #d32f2f, #b71c1c);
+    color: white;
+    padding: 50px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff9800;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.news-section {
+    padding: 40px;
+}
+.news-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.news-item {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.cta {
+    background: #ff9800;
+    color: white;
+    padding: 30px;
+}
+footer {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+}
