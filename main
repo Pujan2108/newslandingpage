@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Channel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>Breaking News 24/7</h1>
+        <p>Stay updated with the latest headlines and live reports.</p>
+        <a href="#latest-news" class="btn">Read Latest News</a>
+    </header>
+
+    <section id="latest-news" class="news-section">
+        <h2>Top Stories</h2>
+        <div class="news-list">
+            <div class="news-item">
+                <h3>Global Politics</h3>
+                <p>Latest updates on international affairs and governance.</p>
+            </div>
+            <div class="news-item">
+                <h3>Business & Economy</h3>
+                <p>Stock markets, investments, and financial insights.</p>
+            </div>
+            <div class="news-item">
+                <h3>Technology & Innovation</h3>
+                <p>New breakthroughs and advancements in tech.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Subscribe for Instant Updates</h2>
+        <a href="#subscribe" class="btn">Subscribe Now</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 News Channel. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
